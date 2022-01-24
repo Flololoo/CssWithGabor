@@ -1,0 +1,20 @@
+@import "featured.css";
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.w-100 {
+    max-width: 100%;
+    width: 100%;
+}
+
+@media all and (min-width: 768px) {
+    .w-md-50 {
+        max-width: 50%;
+        width: 50%;
+    }
+}
